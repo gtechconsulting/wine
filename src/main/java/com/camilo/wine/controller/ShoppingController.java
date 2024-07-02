@@ -2,7 +2,6 @@ package com.camilo.wine.controller;
 
 import com.camilo.wine.dto.BiggestShoppingDTO;
 import com.camilo.wine.dto.ShoppingDTO;
-import com.camilo.wine.exception.ProductNotFoundException;
 import com.camilo.wine.exception.ShoppingNotFoundException;
 import com.camilo.wine.model.Client;
 import com.camilo.wine.model.Product;
@@ -17,7 +16,6 @@ import reactor.core.publisher.Flux;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
-import java.util.stream.Collectors;
 
 import static java.util.Comparator.comparing;
 
