@@ -14,7 +14,8 @@ public class ClientController {
 
     @GetMapping(value = "/clientes-fieis")
     public ResponseEntity<String> getShopping() {
-        return new ResponseEntity<>("Lista de clientes fieis", HttpStatus.OK);
+
+        return new ResponseEntity<>("Recomendacao de vinho", HttpStatus.OK);
     }
 
     @GetMapping(value = "/recomendacao/cliente/tipo")
