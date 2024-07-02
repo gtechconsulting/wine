@@ -6,16 +6,14 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.List;
-
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class ShoppingDTO {
-    private String name;
+public class BiggestShoppingDTO {
+    private String clientName;
     private String cpf;
+    private Product product;
+    private Long quantity;
     private Double total;
-    private Long quantidade;
-    private List<Product> products;
 }
